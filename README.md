@@ -21,7 +21,7 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Tenzinwangchuk95/poke_move_finder. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[Tenzinwangchuk95]/poke_move_finder/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/Tenzinwangchuk95/dnd_character_app. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[Tenzinwangchuk95]/dnd_character_app/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
@@ -38,4 +38,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Code of Conduct
 
-Everyone interacting in the dnd_character_app project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[Tenzinwangchuk95]/poke_move_finder/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the dnd_character_app project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[Tenzinwangchuk95]/dnd_character_app/blob/master/CODE_OF_CONDUCT.md).
