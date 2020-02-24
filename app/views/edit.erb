@@ -1,0 +1,37 @@
+<h1>Edit the Form Below</h1>
+    <form method="post" action='/index/<%= @character.id %>'>
+    <input type="hidden" name="_method" value="patch">
+        <label>Name:</label>
+        <br/>
+        <input id="name" type="text" name="character[name]" value="<%= @character.name %>"/>
+        <br/>
+        <label>Class:</label>
+        <br/>
+        <input id="klass" type="text" name="character[klass]" value="<%= @character.klass %>"/>
+        <br/>
+        <label>Strength:</label>
+        <br/>
+        <input id="strength" type="text" name="character[strength]" value="<%= @character.strength %>"/>
+        <br/>
+        <label>Dexterity:</label>
+        <br/>
+        <input id=" dexterity" type="text" name="character[dexterity]" value="<%= @character.dexterity %>"/>
+        <br/>
+        <label>Constitution:</label>
+        <br/>
+        <input id="constitution" type="text" name="character[constitution]" value="<%= @character.constitution %>"/>
+        <br/>
+        <label>Intelligence:</label>
+        <br/>
+        <input id="intelligence" type="text" name="character[intelligence]" value="<%= @character.intelligence %>"/>
+        <br/>
+        <label>Wisdom:</label>
+        <br/>
+        <input id="wisdom" type="text" name="character[wisdom]" value="<%= @character.wisdom %>"/>
+        <br/>
+        <label>Charisma:</label>
+        <br/>
+        <input id="charisma" type="text" name="character[charisma]" value="<%= @character.charisma %>"/>
+        <br/>
+        <input type="submit" value="Edit"/>
+    </form>

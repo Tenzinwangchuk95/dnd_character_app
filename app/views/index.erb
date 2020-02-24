@@ -1,0 +1,30 @@
+<DOCTYPE! html>
+<head> 
+</head>
+<body>
+<h1> Welcome! </h1>
+<h2>Your Characters are listed below</h2>
+<a href="/create">Create a New Character</a>
+<% @list= @characters.where(user_id: @current_user.id) %>
+<% @list.each do |t| %>
+<br/>
+<h2> Name:<%= t.name %><h2>
+<h2> Class:<%= t.klass %><h2>
+<h2> STR:<%= t.strength %><h2>
+<h2> DEX:<%= t.dexterity %><h2>
+<h2> CON:<%= t.constitution %><h2>
+<h2> INT:<%= t.intelligence %><h2>
+<h2> WIS:<%= t.wisdom %><h2>
+<h2> CHA:<%= t.charisma %><h2>
+<a href="/edit/<%= t.id %>">Edit</a>
+<form method="post" action="/delete/<%= t.id %>">
+<input id="hidden" type="hidden" name="_method" value="DELETE">
+<input type="submit" value="delete">
+</form>
+<br/>
+<% end %>
+<br/>
+<a href="/logout">Log Out</a>
+</body>
+
+</html>
